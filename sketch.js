@@ -84,7 +84,7 @@ function draw() {
   text("GAME OVER",200,250);
     
    //water velocity becomes zero
-   water.setVelocityXEach(0);
+   water.setVelocityX(0);
 
    //destroy Helicopter group
     helicopterGroup.destroyEach();
